@@ -6,21 +6,21 @@ function drawChart() {
     console.log("draw chart running");
     console.log(google);
     var data = new google.visualization.DataTable();
-    data.addColumn('number', "Mammut Infinity");
-    data.addColumn('number', 'Sterling Fusion Nano');
-    data.addColumn('number', 'Petzl Fuse');
-    data.addColumn('number', 'Mammut Revelation');
-    data.addColumn('number', 'BlueWater Pulse');
-    data.addColumn('number', 'BlueWater Lightning Pro');
-    data.addColumn('number', 'Sterling Evolution Velocity');
-    data.addColumn('number', 'Sterling Marathon Pro');
-    data.addColumn('number', 'Mammut Tusk');
-    data.addColumn('number', 'Petzl Nomad');
-    data.addColumn('number', 'BlueWater Eliminator');
-    data.addColumn('number', 'Maxim Pinnacle');
-    data.addColumn('number', 'Maxim Glider');
-    data.addColumn('number', 'Maxim Equinox');
-    data.addColumn('number', 'Beal Edlinger');
+    data.addColumn('string', "Mammut Infinity");
+    data.addColumn('string', 'Sterling Fusion Nano');
+    data.addColumn('string', 'Petzl Fuse');
+    data.addColumn('string', 'Mammut Revelation');
+    data.addColumn('string', 'BlueWater Pulse');
+    data.addColumn('string', 'BlueWater Lightning Pro');
+    data.addColumn('string', 'Sterling Evolution Velocity');
+    data.addColumn('string', 'Sterling Marathon Pro');
+    data.addColumn('string', 'Mammut Tusk');
+    data.addColumn('string', 'Petzl Nomad');
+    data.addColumn('string', 'BlueWater Eliminator');
+    data.addColumn('string', 'Maxim Pinnacle');
+    data.addColumn('string', 'Maxim Glider');
+    data.addColumn('string', 'Maxim Equinox');
+    data.addColumn('string', 'Beal Edlinger');
 
     data.addRows([
 	[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15  ],//"rope id"
