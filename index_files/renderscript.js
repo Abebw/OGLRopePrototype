@@ -78,7 +78,7 @@ function drawChart() {
 			  y: {
 			      'rope name': {label: 'Hours Studied'},
 			      //'final grade': {label: 'Final Exam Grade'}
-			  }
+			  },
 			  x: { 
 			      'weight' : {label: 'weight'}
 			  }
