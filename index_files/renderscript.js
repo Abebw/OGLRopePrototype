@@ -10,6 +10,7 @@ function drawChart() {
     data.addColumn('string', 'Sterling Fusion Nano');
     data.addColumn('string', 'Petzl Fuse');
     data.addColumn('string', 'Mammut Revelation');
+    data.addColumn('string', 'BlueWater Pulse');
     data.addColumn('string', 'BlueWater Lightning Pro');
     data.addColumn('string', 'Sterling Evolution Velocity');
     data.addColumn('string', 'Sterling Marathon Pro');
@@ -22,11 +23,11 @@ function drawChart() {
     data.addColumn('string', 'Beal Edlinger');
 
     data.addRows([
-	["rope id",1,2,3,4,5,6,7,8,9,10,11,12,13,14,15  ],
-	["weight(kg) @ 50m",2.9,2.65,null,null,null,null,3.1,3.15,null,null,null,null,null,null,3.25  ],
-	["weight(kg) @ 60m",3.48,3.18,3.36,3.3,3.72,3.66,3.72,3.78,3.84,3.78,3.84,3.66,3.96,3.96,3.9  ],
-	["weight(kg) @ 70m",4.06,3.71,3.92,3.85,4.34,4.27,4.34,4.41,4.48,4.41,4.48,4.27,4.62,null,4.55  ],
-	["weight(kg) @ 80m",4.64,4.24,null,null,null,null,4.96,5.04,null,null,null,null,null,null,5.2  ]
+	[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15  ],//"rope id"
+	[2.9,2.65,null,null,null,null,3.1,3.15,null,null,null,null,null,null,3.25  ],//"weight(kg) @ 50m",
+	[3.48,3.18,3.36,3.3,3.72,3.66,3.72,3.78,3.84,3.78,3.84,3.66,3.96,3.96,3.9  ],//"weight(kg) @ 60m"
+	[4.06,3.71,3.92,3.85,4.34,4.27,4.34,4.41,4.48,4.41,4.48,4.27,4.62,null,4.55  ], //weight(kg) @ 70m",
+	[4.64,4.24,null,null,null,null,4.96,5.04,null,null,null,null,null,null,5.2  ]//"weight(kg) @ 80m",
     ]);
 
 		
