@@ -23,7 +23,7 @@ function drawChart() {
     data.addColumn('number', 'Beal Edlinger');
 
     data.addRows([
-	[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15  ],//"rope id"
+	//[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15  ],//"rope id"
 	[2.9,2.65,null,null,null,null,3.1,3.15,null,null,null,null,null,null,3.25  ],//"weight(kg) @ 50m",
 	[3.48,3.18,3.36,3.3,3.72,3.66,3.72,3.78,3.84,3.78,3.84,3.66,3.96,3.96,3.9  ],//"weight(kg) @ 60m"
 	[4.06,3.71,3.92,3.85,4.34,4.27,4.34,4.41,4.48,4.41,4.48,4.27,4.62,null,4.55  ], //weight(kg) @ 70m",
