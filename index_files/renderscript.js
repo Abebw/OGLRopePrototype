@@ -4,6 +4,7 @@ google.setOnLoadCallback(drawChart);
 console.log("draw chart being defined");
 function drawChart() {
     console.log("draw chart running");
+    console.log(google);
     var data = new google.visualization.DataTable();
     data.addColumn('number', "Mammut Infinity");
     data.addColumn('number', 'Sterling Fusion Nano');
