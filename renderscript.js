@@ -1,6 +1,7 @@
 
 google.load("visualization", "1", {packages:["corechart"]});
 google.setOnLoadCallback(drawChart);
+console.log("draw chart being defined");
 function drawChart() {
     console.log("draw chart running");
     var data = new google.visualization.DataTable();
