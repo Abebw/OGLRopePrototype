@@ -1,5 +1,5 @@
 
-google.load("visualization", "1", {packages:["corechart"]});
+google.load("visualization", "1", {packages:["corechart", "scatter"]});
 google.setOnLoadCallback(drawChart);
 console.log("draw chart being defined");
 function drawChart() {
