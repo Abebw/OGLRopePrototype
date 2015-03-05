@@ -69,6 +69,21 @@ function drawChart() {
 							titleTextStyle: {color: '#5c5c5c'},
 							titlePosition: 'out'},
 							backgroundColor: '#FbF6E6',
+		      series: {
+			  0: {axis: 'rope name'},
+			  1: {axis: 'rope id'}
+			  2: {axis: 'weight'}
+		      },
+		      axes: {
+			  y: {
+			      'rope name': {label: 'Hours Studied'},
+			      //'final grade': {label: 'Final Exam Grade'}
+			  }
+			  x: { 
+			      'weight' : {label: 'weight'}
+			  }
+		      },
+
 							is3D: true
 						}
 					);
