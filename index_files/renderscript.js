@@ -71,7 +71,7 @@ function drawChart() {
 							backgroundColor: '#FbF6E6',
 		      series: {
 			  0: {axis: 'rope name'},
-			  1: {axis: 'rope id'}
+			  1: {axis: 'rope id'},
 			  2: {axis: 'weight'}
 		      },
 		      axes: {
