@@ -6,27 +6,52 @@ function drawChart() {
     console.log("draw chart running");
     console.log(google);
     var data = new google.visualization.DataTable();
-    data.addColumn('string', "Mammut Infinity");
-    data.addColumn('string', 'Sterling Fusion Nano');
-    data.addColumn('string', 'Petzl Fuse');
-    data.addColumn('string', 'Mammut Revelation');
-    data.addColumn('string', 'BlueWater Lightning Pro');
-    data.addColumn('string', 'Sterling Evolution Velocity');
-    data.addColumn('string', 'Sterling Marathon Pro');
-    data.addColumn('string', 'Mammut Tusk');
-    data.addColumn('string', 'Petzl Nomad');
-    data.addColumn('string', 'BlueWater Eliminator');
-    data.addColumn('string', 'Maxim Pinnacle');
-    data.addColumn('string', 'Maxim Glider');
-    data.addColumn('string', 'Maxim Equinox');
-    data.addColumn('string', 'Beal Edlinger');
+    data.addColumn('number', 'Weight (kg)');
+    data.addColumn('number', 'rope id');
+    data.addColumn('string', 'Rope');
+   
 
     data.addRows([
-	["rope id",1,2,3,4,5,6,7,8,9,10,11,12,13,14,15  ],
-	["weight(kg) @ 50m",2.9,2.65,null,null,null,null,3.1,3.15,null,null,null,null,null,null,3.25  ],
-	["weight(kg) @ 60m",3.48,3.18,3.36,3.3,3.72,3.66,3.72,3.78,3.84,3.78,3.84,3.66,3.96,3.96,3.9  ],
-	["weight(kg) @ 70m",4.06,3.71,3.92,3.85,4.34,4.27,4.34,4.41,4.48,4.41,4.48,4.27,4.62,null,4.55  ],
-	["weight(kg) @ 80m",4.64,4.24,null,null,null,null,4.96,5.04,null,null,null,null,null,null,5.2  ]
+	[2.9,1,"Mammut Infinity"  ],
+	[3.48,1,"Mammut Infinity"  ],
+	[4.06,1,"Mammut Infinity"  ],
+	[4.64,1,"Mammut Infinity"  ],
+	[2.65,2,"Sterling Fusion Nano"  ],
+	[3.18,2,"Sterling Fusion Nano"  ],
+	[3.71,2,"Sterling Fusion Nano"  ],
+	[4.24,2,"Sterling Fusion Nano"  ],
+	[3.36,3,"Petzl Fuse"  ],
+	[3.92,3,"Petzl Fuse"  ],
+	[3.3,4,"Mammut Revelation"  ],
+	[3.85,4,"Mammut Revelation"  ],
+	[3.72,5,"BlueWater Pulse"  ],
+	[4.03,5,"BlueWater Pulse"  ],
+	[4.34,5,"BlueWater Pulse"  ],
+	[3.66,6,"BlueWater Lightning Pro"  ],
+	[4.27,6,"BlueWater Lightning Pro"  ],
+	[3.1,7,"Sterling Evolution Velocity"  ],
+	[3.72,7,"Sterling Evolution Velocity"  ],
+	[4.34,7,"Sterling Evolution Velocity"  ],
+	[4.96,7,"Sterling Evolution Velocity"  ],
+	[3.15,8,"Sterling Marathon Pro"  ],
+	[3.78,8,"Sterling Marathon Pro"  ],
+	[4.41,8,"Sterling Marathon Pro"  ],
+	[5.04,8,"Sterling Marathon Pro"  ],
+	[3.84,9,"Mammut Tusk"  ],
+	[4.48,9,"Mammut Tusk"  ],
+	[3.78,10,"Petzl Nomad"  ],
+	[4.41,10,"Petzl Nomad"  ],
+	[3.84,11,"BlueWater Eliminator"  ],
+	[4.48,11,"BlueWater Eliminator"  ],
+	[3.66,12,"Maxim Pinnacle"  ],
+	[4.27,12,"Maxim Pinnacle"  ],
+	[3.96,13,"Maxim Glider"  ],
+	[4.62,13,"Maxim Glider"  ],
+	[3.96,14,"Maxim Equinox"  ],
+	[3.25,15,"Beal Edlinger"  ],
+	[3.9,15,"Beal Edlinger"  ],
+	[4.55,15,"Beal Edlinger"  ],
+	[5.2,15,"Beal Edlinger"  ]
     ]);
 
 		
