@@ -77,7 +77,7 @@ function drawChart() {
 		      axes: {
 			  x: {
 			      'rope name': {label: ''},
-			      'rope id': {label: ''}
+			      //'rope id': {label: ''}
 			      //'final grade': {label: 'Final Exam Grade'}
 			  },
 			  y: { 
