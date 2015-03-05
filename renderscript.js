@@ -2,6 +2,7 @@
 google.load("visualization", "1", {packages:["corechart"]});
 google.setOnLoadCallback(drawChart);
 function drawChart() {
+    console.log("draw chart running");
     var data = new google.visualization.DataTable();
     data.addColumn('string', 'Weight Rating');
     data.addColumn('number', 'Sterling Fusion Nano test');
