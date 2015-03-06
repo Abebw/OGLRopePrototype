@@ -6,52 +6,66 @@ function drawChart() {
     console.log("draw chart running");
     console.log(google);
     var data = new google.visualization.DataTable();
-    data.addColumn('number', 'Weight (kg)');
+    data.addColumn('number', 'Mammut Infinity');
+    data.addColumn('number', 'Sterling Fusion Nano');
+    data.addColumn('number', 'Petzl Fuse');
+    data.addColumn('number', 'Mammut Revelation');
+    data.addColumn('number', 'BlueWater Pulse');
+    data.addColumn('number', 'BlueWater Lightning Pro');
+    data.addColumn('number', 'Sterling Evolution Velocity');
+    data.addColumn('number', 'Sterling Marathon Pro');
+    data.addColumn('number', 'Mammut Tusk');
+    data.addColumn('number', 'Petzl Nomad');
+    data.addColumn('number', 'BlueWater Eliminator');
+    data.addColumn('number', 'Maxim Pinnacle');
+    data.addColumn('number', 'Maxim Glider');
+    data.addColumn('number', 'Maxim Equinox');
+    data.addColumn('number', 'Beal Edlinger');
     data.addColumn('number', 'rope id');
     data.addColumn('string', 'Rope');
    
 
     data.addRows([
-	[2.9,1,"Mammut Infinity"  ],
-	[3.48,1,"Mammut Infinity"  ],
-	[4.06,1,"Mammut Infinity"  ],
-	[4.64,1,"Mammut Infinity"  ],
-	[2.65,2,"Sterling Fusion Nano"  ],
-	[3.18,2,"Sterling Fusion Nano"  ],
-	[3.71,2,"Sterling Fusion Nano"  ],
-	[4.24,2,"Sterling Fusion Nano"  ],
-	[3.36,3,"Petzl Fuse"  ],
-	[3.92,3,"Petzl Fuse"  ],
-	[3.3,4,"Mammut Revelation"  ],
-	[3.85,4,"Mammut Revelation"  ],
-	[3.72,5,"BlueWater Pulse"  ],
-	[4.03,5,"BlueWater Pulse"  ],
-	[4.34,5,"BlueWater Pulse"  ],
-	[3.66,6,"BlueWater Lightning Pro"  ],
-	[4.27,6,"BlueWater Lightning Pro"  ],
-	[3.1,7,"Sterling Evolution Velocity"  ],
-	[3.72,7,"Sterling Evolution Velocity"  ],
-	[4.34,7,"Sterling Evolution Velocity"  ],
-	[4.96,7,"Sterling Evolution Velocity"  ],
-	[3.15,8,"Sterling Marathon Pro"  ],
-	[3.78,8,"Sterling Marathon Pro"  ],
-	[4.41,8,"Sterling Marathon Pro"  ],
-	[5.04,8,"Sterling Marathon Pro"  ],
-	[3.84,9,"Mammut Tusk"  ],
-	[4.48,9,"Mammut Tusk"  ],
-	[3.78,10,"Petzl Nomad"  ],
-	[4.41,10,"Petzl Nomad"  ],
-	[3.84,11,"BlueWater Eliminator"  ],
-	[4.48,11,"BlueWater Eliminator"  ],
-	[3.66,12,"Maxim Pinnacle"  ],
-	[4.27,12,"Maxim Pinnacle"  ],
-	[3.96,13,"Maxim Glider"  ],
-	[4.62,13,"Maxim Glider"  ],
-	[3.96,14,"Maxim Equinox"  ],
-	[3.25,15,"Beal Edlinger"  ],
-	[3.9,15,"Beal Edlinger"  ],
-	[4.55,15,"Beal Edlinger"  ],
-	[5.2,15,"Beal Edlinger"  ]
+	[2.9,null,null,null,null,null,null,null,null,null,null,null,null,null,null,1,"Mammut Infinity"  ],
+	[3.48,null,null,null,null,null,null,null,null,null,null,null,null,null,null,1,"Mammut Infinity"  ],
+	[4.06,null,null,null,null,null,null,null,null,null,null,null,null,null,null,1,"Mammut Infinity"  ],
+	[4.64,null,null,null,null,null,null,null,null,null,null,null,null,null,null,1,"Mammut Infinity"  ],
+	[null,2.65,null,null,null,null,null,null,null,null,null,null,null,null,null,2,"Sterling Fusion Nano"  ],
+	[null,3.18,null,null,null,null,null,null,null,null,null,null,null,null,null,2,"Sterling Fusion Nano"  ],
+	[null,3.71,null,null,null,null,null,null,null,null,null,null,null,null,null,2,"Sterling Fusion Nano"  ],
+	[null,4.24,null,null,null,null,null,null,null,null,null,null,null,null,null,2,"Sterling Fusion Nano"  ],
+	[null,null,3.36,null,null,null,null,null,null,null,null,null,null,null,null,3,"Petzl Fuse"  ],
+	[null,null,3.92,null,null,null,null,null,null,null,null,null,null,null,null,3,"Petzl Fuse"  ],
+	[null,null,null,3.3,null,null,null,null,null,null,null,null,null,null,null,4,"Mammut Revelation"  ],
+	[null,null,null,3.85,null,null,null,null,null,null,null,null,null,null,null,4,"Mammut Revelation"  ],
+	[null,null,null,null,3.72,null,null,null,null,null,null,null,null,null,null,5,"BlueWater Pulse"  ],
+	[null,null,null,null,4.03,null,null,null,null,null,null,null,null,null,null,5,"BlueWater Pulse"  ],
+	[null,null,null,null,4.34,null,null,null,null,null,null,null,null,null,null,5,"BlueWater Pulse"  ],
+	[null,null,null,null,null,3.66,null,null,null,null,null,null,null,null,null,6,"BlueWater Lightning Pro"  ],
+	[null,null,null,null,null,4.27,null,null,null,null,null,null,null,null,null,6,"BlueWater Lightning Pro"  ],
+	[null,null,null,null,null,null,3.1,null,null,null,null,null,null,null,null,7,"Sterling Evolution Velocity"  ],
+	[null,null,null,null,null,null,3.72,null,null,null,null,null,null,null,null,7,"Sterling Evolution Velocity"  ],
+	[null,null,null,null,null,null,4.34,null,null,null,null,null,null,null,null,7,"Sterling Evolution Velocity"  ],
+	[null,null,null,null,null,null,4.96,null,null,null,null,null,null,null,null,7,"Sterling Evolution Velocity"  ],
+	[null,null,null,null,null,null,null,3.15,null,null,null,null,null,null,null,8,"Sterling Marathon Pro"  ],
+	[null,null,null,null,null,null,null,3.78,null,null,null,null,null,null,null,8,"Sterling Marathon Pro"  ],
+	[null,null,null,null,null,null,null,4.41,null,null,null,null,null,null,null,8,"Sterling Marathon Pro"  ],
+	[null,null,null,null,null,null,null,5.04,null,null,null,null,null,null,null,8,"Sterling Marathon Pro"  ],
+	[null,null,null,null,null,null,null,null,3.84,null,null,null,null,null,null,9,"Mammut Tusk"  ],
+	[null,null,null,null,null,null,null,null,4.48,null,null,null,null,null,null,9,"Mammut Tusk"  ],
+	[null,null,null,null,null,null,null,null,null,3.78,null,null,null,null,null,10,"Petzl Nomad"  ],
+	[null,null,null,null,null,null,null,null,null,4.41,null,null,null,null,null,10,"Petzl Nomad"  ],
+	[null,null,null,null,null,null,null,null,null,null,3.84,null,null,null,null,11,"BlueWater Eliminator"  ],
+	[null,null,null,null,null,null,null,null,null,null,4.48,null,null,null,null,11,"BlueWater Eliminator"  ],
+	[null,null,null,null,null,null,null,null,null,null,null,3.66,null,null,null,12,"Maxim Pinnacle"  ],
+	[null,null,null,null,null,null,null,null,null,null,null,4.27,null,null,null,12,"Maxim Pinnacle"  ],
+	[null,null,null,null,null,null,null,null,null,null,null,null,3.96,null,null,13,"Maxim Glider"  ],
+	[null,null,null,null,null,null,null,null,null,null,null,null,4.62,null,null,13,"Maxim Glider"  ],
+	[null,null,null,null,null,null,null,null,null,null,null,null,null,3.96,null,14,"Maxim Equinox"  ],
+	[null,null,null,null,null,null,null,null,null,null,null,null,null,null,3.25,15,"Beal Edlinger"  ],
+	[null,null,null,null,null,null,null,null,null,null,null,null,null,null,3.9,15,"Beal Edlinger"  ],
+	[null,null,null,null,null,null,null,null,null,null,null,null,null,null,4.55,15,"Beal Edlinger"  ],
+	[null,null,null,null,null,null,null,null,null,null,null,null,null,null,5.2,15,"Beal Edlinger"  ]
     ]);
 
 		
