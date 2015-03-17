@@ -84,15 +84,39 @@ function drawChart() {
 							titlePosition: 'out'},
 							backgroundColor: '#FbF6E6',
 		      series: {
-			  2: {axis: 'rope name'},
-			  1: {axis: 'rope id'},
-			  0: {axis: 'weight'}
+			  14: {axis: 'bEdl'},
+			  13: {axis: 'mEquinox'},
+			  12: {axis: 'mGlide'},
+			  11: {axis: 'mPin'},
+			  10: {axis: 'bwElim'},
+			  9: {axis: 'pNomad'},
+			  8: {axis: 'mTusk'},
+			  7: {axis: 'sMaraPro'},
+			  6: {axis: 'sEvoVel'},
+			  5: {axis: 'bwLightPro'},
+			  4: {axis: 'bwPulse'},
+			  3: {axis: 'mRev'},
+			  2: {axis: 'pFuse'},
+			  1: {axis: 'sNano'},
+			  0: {axis: 'mInf'}
 		      },
 		      axes: {
 			  x: {
-			      'rope name': {label: ''},
-			      //'rope id': {label: ''}
-			      //'final grade': {label: 'Final Exam Grade'}
+			    'mInf' : {label:''},
+			    'sNano' : {label:''},
+			    'pFuse' : {label:''},
+			    'mRev' : {label:''},
+			    'bwPulse' : {label:''},
+			    'bwLightPro' : {label:''},
+			    'sEvoVel' : {label:''},
+			    'sMaraPro' : {label:''},
+			    'mTusk' : {label:''},
+			    'pNomad' : {label:''},
+			    'bwElim' : {label:''},
+			    'mPin' : {label:''},
+			    'mGlide' : {label:''},
+			    'mEqinox' : {label:''},
+			    'bEdl' : {label:''}
 			  },
 			  y: { 
 			      'rope id' : {label: 'rope id'}
