@@ -95,7 +95,7 @@ function drawChart() {
 			      //'final grade': {label: 'Final Exam Grade'}
 			  },
 			  y: { 
-			      'weight' : {label: 'weight'}
+			      'rope id' : {label: 'rope id'}
 			  }
 		      },
 
