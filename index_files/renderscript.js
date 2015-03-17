@@ -102,7 +102,7 @@ function drawChart() {
 			  0: {axis: 'mInf'}
 		      },
 		      axes: {
-			  x: {
+			  y: {
 			    'mInf' : {label:''},
 			    'sNano' : {label:''},
 			    'pFuse' : {label:''},
@@ -119,7 +119,7 @@ function drawChart() {
 			    'mEqinox' : {label:''},
 			    'bEdl' : {label:''}
 			  },
-			  y: { 
+			  x: { 
 			      'id' : {label: 'rope id'}
 			  }
 		      },
