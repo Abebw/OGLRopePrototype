@@ -84,6 +84,7 @@ function drawChart() {
 							titlePosition: 'out'},
 							backgroundColor: '#FbF6E6',
 		      series: {
+			  15: {axis: 'id'},
 			  14: {axis: 'bEdl'},
 			  13: {axis: 'mEquinox'},
 			  12: {axis: 'mGlide'},
@@ -119,7 +120,7 @@ function drawChart() {
 			    'bEdl' : {label:''}
 			  },
 			  y: { 
-			      'rope id' : {label: 'rope id'}
+			      'id' : {label: 'rope id'}
 			  }
 		      },
 
